@@ -90,9 +90,9 @@ a {
     display: flex;
     flex-direction: column;
   }
-      .title1,.title2,.title3,.title4 .alert {
+      .title1,.title2,.title3,.title4, .alert {
           font-size: 18px;
-          height: 150px;
+          height: 100px;
          width: 100px; 
           
           
@@ -100,6 +100,4 @@ a {
       }
     }
   
-    /* p {
-      font-family: 'Rubik Dirt', cursive;
-    } */
+    
