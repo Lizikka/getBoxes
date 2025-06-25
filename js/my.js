@@ -1,42 +1,28 @@
-const button = document.querySelector('.title')
+const button = document.querySelector('.title1')
 let div = document.createElement('div')
-let num = document.getElementById('optical')
+
 div.className= 'alert'
-div.innerHTML = 'Pieczywo 3 szt, skrzydelka 5 szt, lodeczki 170 g., rollsy 1.5 szt'
+div.innerHTML = '<li>Pieczywo 3 szt </li>` `<li>Skrzydelka 5 szt </li>``<li> Lodeczki 170 g. </li>``<li> Rollsy 1.5 szt</li>'
 let numberOfSamples
-let sum
-let number
+
+
 
 
 button.addEventListener('touchstart', createBox)
 
 function createBox(){
     document.body.append(div)
-     number = Number(num.value)
-     sum = (number / 1.028) * 50 
-     div.innerHTML = `Pieczywo 3 szt, skrzydelka 5 szt, lodeczki 170 g., rollsy 1.5 szt`
+    div.innerHTML = `<li>Pieczywo 3 szt </li>` `<li>skrzydelka 5 szt  odeczki 170 g </li> rollsy 1.5 szt`
      
-     div.style.backgroundColor = 'pink'
-    //  if (( sum > 35 )|| (sum < 55)){
-    //     div.style.backgroundColor = 'green'
-    //  }
 }
 
 button.addEventListener('click',  createBox)
 
 function createBox(){
     document.body.append(div)
-    number = Number(num.value)
-    
-    sum = ( number/ 1.028) * 50 
-    if ((sum < 35) || (sum > 50)){
-        div.style.backgroundColor = 'pink'}
-    //     if (( sum > 35 )|| (sum < 55)) {
-    //     div.style.backgroundColor = 'green'
-    //  }
-    div.innerHTML = `Pieczywo 3 szt,
-     skrzydelka 5 szt, 
-     lodeczki 170 g.,
-      rollsy 1.5 szt`
+    div.innerHTML = `<li>Pieczywo 3 szt</li>`
+     `<li>krzydelka 5 szt </li>` 
+     `<li>lodeczki 170 g.</li>`
+      `<li>rollsy 1.5 szt </li>`
 
 }
