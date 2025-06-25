@@ -90,7 +90,7 @@ a {
     display: flex;
     flex-direction: column;
   }
-      .title, .alert {
+      .title1,.title2,.title3,.title4 .alert {
           font-size: 18px;
           height: 150px;
          width: 100px; 
