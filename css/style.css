@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+    color: rgb(11, 11, 156);
+    font-weight: 700;
+    
+  }
+  body {
+      padding-top: 250px;
+      
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+      
+    
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(90, 86, 86);
+  font-size: 25px;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  
+  
+  
+  text-align: center;
+  border-radius: 70px;
+  /* border: solid rgb(48, 42, 42) 3px; */
+  vertical-align: middle;
+  background-image: url(PH_PIZZABOX_starezdjecie_500x500.jpg);
+  background-size: contain;
+  box-shadow: 10px 5px 5px grey;
+  }
+  p {
+    margin: 0 auto;
+    
+    
+  }
+  input {
+    border-radius: 60px;
+    border: 1px solid rgb(121, 101, 101);
+    height: 25px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    
+  }
+  .input {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  .alert {
+    font-family: 'Ubuntu', sans-serif;
+  color: rgb(74, 57, 57);
+  font-size: 25px;
+    width: 400px;
+    height: 100px;
+    margin: 10px auto;
+    background-color: rgb(43, 226, 113);
+    text-align: center;
+    border-radius: 60px;
+    padding-top: 25px;
+    vertical-align: middle;
+    
+  }
+  
+  @media (max-width: 500px) {
+      
+      
+      body  {
+        /* background-color: rgb(116, 116, 169); */
+        background: url(../png-transparent-graphing-papaer-paper-angle-spoonflower-textile-pattern-squared-school-notebook-sheet-texture-blue-text-thumbnail.png);
+        padding-top: 100px;
+
+        
+      }
+      .container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+      .title, .alert {
+          font-size: 18px;
+          height: 80px;
+         width: 100px; 
+          
+          
+      
+      }
+    }
+  
+    /* p {
+      font-family: 'Rubik Dirt', cursive;
+    } */
