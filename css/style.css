@@ -64,7 +64,7 @@ a {
     
   }
   
-  .alert {
+  .alert, .alert2, .alert3, .alert4 {
     font-family: 'Ubuntu', sans-serif;
   color: rgb(74, 57, 57);
   font-size: 25px;
@@ -80,6 +80,8 @@ a {
     
   }
   
+  
+
   @media (max-width: 500px) {
       
       
@@ -104,11 +106,17 @@ a {
           
       
       }
-      .alert {
+      .alert, .alert2, .alert3, .alert4 {
         font-size: 18px;
           height: 400px;
          width: 100px; 
       }
+      /* .alert2 {
+        font-size: 18px;
+          height: 400px;
+         width: 100px; 
+         background-color: aqua;
+      } */
     }
   
     
