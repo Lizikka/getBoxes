@@ -11,10 +11,10 @@ div.className = 'alert'
 div2.className = 'alert2'
 div3.className = 'alert3'
 div4.className = 'alert4'
-div.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
-div2.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 5 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
-div3.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 6 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
-div4.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 7 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
+div.innerHTML = '<li>Pieczywo 2 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 150 g. </li><li> Rollsy 1 szt</li>'
+div2.innerHTML = '<li>Pieczywo 2.5 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 150 g. </li><li> Rollsy 1.5 szt</li>'
+div3.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 5 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
+div4.innerHTML = '<li>Pieczywo 3 szt </li><li>Skrzydelka 6 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
 
 
 
