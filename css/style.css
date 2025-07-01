@@ -41,7 +41,7 @@ a {
   }
   p {
     margin: 0 auto;
-    height: 40px;
+    height: 60px;
     width: 150px;
     background-color: bisque;
     border-radius: 10px;
@@ -64,7 +64,7 @@ a {
     
   }
   
-  .alert, .alert2, .alert3, .alert4 {
+  .alert {
     font-family: 'Ubuntu', sans-serif;
   color: rgb(74, 57, 57);
   font-size: 25px;
@@ -79,6 +79,20 @@ a {
     vertical-align: middle;
     
   }
+  .alert2, .alert3, .alert4{
+    font-family: 'Ubuntu', sans-serif;
+  color: rgb(74, 57, 57);
+  font-size: 25px;
+    width: 400px;
+    height: 250px;
+    margin: 10px auto;
+    background-color: rgb(43, 226, 113);
+    text-align: center;
+    display: block;
+    border-radius: 60px;
+    padding-top: 25px;
+    vertical-align: middle;
+  } 
   
   
 
@@ -106,17 +120,7 @@ a {
           
       
       }
-      .alert, .alert2, .alert3, .alert4 {
-        font-size: 18px;
-          height: 400px;
-         width: 100px; 
-      }
-      /* .alert2 {
-        font-size: 18px;
-          height: 400px;
-         width: 100px; 
-         background-color: aqua;
-      } */
+      
     }
   
     
