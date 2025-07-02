@@ -14,9 +14,9 @@ div4.className = 'alert4'
 
 
 div.innerHTML = '<p>Personal Box </p><li>Pieczywo 2 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 150 g. </li><li> Rollsy 1 szt</li>'
-div2.innerHTML = '<p>Mój Box </p><li>Pieczywo 2.5 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 150 g. </li><li> Rollsy 1.5 szt</li>'
+div2.innerHTML = '<p>Mój Box </p><li>Pieczywo 2.5 szt </li><li>Skrzydelka 3 szt </li><li> Lodeczki 150 g. </li><li> Rollsy 1 szt</li>'
 div3.innerHTML = '<p>Nasz Box </p><li>Pieczywo 3 szt </li><li>Skrzydelka 5 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
-div4.innerHTML = '<p>Wasz/Box XXL</p><li>Pieczywo 3 szt </li><li>Skrzydelka 6 szt </li><li> Lodeczki 170 g. </li><li> Rollsy 1.5 szt</li>'
+div4.innerHTML = '<p>Wasz/Box XXL</p><li>Pieczywo 3 szt </li><li>Skrzydelka 6 szt </li><li> Lodeczki 200 g. </li><li> Rollsy 1.5 szt</li>'
 
 
 
