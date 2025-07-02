@@ -36,7 +36,8 @@ a {
   /* border: solid rgb(48, 42, 42) 3px; */
   vertical-align: middle;
   background-image: url(PH_PIZZABOX_starezdjecie_500x500.jpg);
-  background-size: contain;
+  background-size: cover;
+  
   box-shadow: 10px 5px 5px grey;
   }
   p {
@@ -71,7 +72,8 @@ a {
     width: 400px;
     height: 250px;
     margin: 10px auto;
-    background-color: rgb(43, 226, 113);
+    background-image: url(../screenshot_5.png);
+    background-size: cover;
     text-align: center;
     
     border-radius: 60px;
@@ -86,7 +88,8 @@ a {
     width: 400px;
     height: 250px;
     margin: 10px auto;
-    background-color: rgb(43, 226, 113);
+    background-image: url(../screenshot_5.png);
+    background-size: cover;
     text-align: center;
     display: block;
     border-radius: 60px;
